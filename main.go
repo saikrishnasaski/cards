@@ -17,7 +17,8 @@ func main() {
 
 	fmt.Println()
 
-	fmt.Println(hand.toString())
+	hand.shuffle()
+	hand.print()
 }
 
 func newCard() string {
